@@ -57,3 +57,16 @@ section .container .user .imgbox img
     height: 100%;
     object-fit: cover;
 }
+
+section .container .user .formbox
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    transition: 0.5s;
+}
