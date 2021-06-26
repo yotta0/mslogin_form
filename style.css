@@ -12,7 +12,7 @@ section
 {
     position: relative;
     min-height: 100vh;
-    background: #444444;
+    background: #DA0037;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -77,8 +77,29 @@ section .container .user .formbox form h2
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
+
     text-align:center;
     width:100%;
     margin-bottom: 10px;
+
     color: #DA0037;
+}
+
+section .container .user .formbox form input  
+{
+    position:relative;
+    width: 100%;
+    padding:10px;
+
+    background:#EDEDED;
+    color:#DA0037;
+    
+    border: none;
+    outline:none;
+    box-shadow: none;
+    margin:8px 0;
+
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 14px;
 }
