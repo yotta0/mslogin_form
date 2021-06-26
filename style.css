@@ -63,10 +63,22 @@ section .container .user .formbox
     position: relative;
     width: 50%;
     height: 100%;
-    background: #fff;
+    background: #171717;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
     transition: 0.5s;
+}
+
+section .container .user .formbox form h2
+{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align:center;
+    width:100%;
+    margin-bottom: 10px;
+    color: #DA0037;
 }
