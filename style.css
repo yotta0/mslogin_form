@@ -127,3 +127,9 @@ section .container .user .formbox form .login
     letter-spacing: 1px;
     transition: 0.5s;
 }
+
+section .container .user .formbox form .login:hover
+{
+    opacity: 60%;
+    transition: 1s;
+}
