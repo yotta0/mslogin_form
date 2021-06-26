@@ -38,3 +38,12 @@ section .container .user
     height: 100%;
     display: flex;
 }
+
+section .container .user .imgbox
+{
+    position: relative;
+    width:50%;
+    height: 100%;
+    background:#DA0037;
+    transition: 0.5s;
+}
