@@ -142,6 +142,24 @@ section .container .user  .formbox form  p
 }
 
 section .container .user .formbox form p a
-{
+{   
     text-decoration: none;
+}
+
+section .container .user .formbox form p a:hover
+{
+    opacity: 50%;
+
+
+
+}
+
+section .container .user .formbox form  footer p
+{   
+    position: absolute;
+    margin-top: 120px;
+    font-size:14px ;
+    font-weight:300;
+
+
 }
