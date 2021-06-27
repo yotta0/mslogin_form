@@ -133,3 +133,15 @@ section .container .user .formbox form .login:hover
     opacity: 60%;
     transition: 1s;
 }
+
+section .container .user  .formbox form  p
+{
+    font-size: 20px;
+    font-weight: 500;
+    color:#DA0037
+}
+
+section .container .user .formbox form p a
+{
+    text-decoration: none;
+}
