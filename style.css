@@ -12,7 +12,7 @@ section
 {
     position: relative;
     min-height: 100vh;
-    background: #DA0037;
+    background: #444444;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +131,7 @@ section .container .user .formbox form .login
 section .container .user .formbox form .login:hover
 {
     opacity: 60%;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 section .container .user  .formbox form  p
@@ -149,9 +149,6 @@ section .container .user .formbox form p a
 section .container .user .formbox form p a:hover
 {
     opacity: 50%;
-
-
-
 }
 
 section .container .user .formbox form  footer p
@@ -160,6 +157,14 @@ section .container .user .formbox form  footer p
     margin-top: 120px;
     font-size:14px ;
     font-weight:300;
+}
 
-
+section .container .user .formbox form .signup
+{   
+    position: relative;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color:#555
 }
