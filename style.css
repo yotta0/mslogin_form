@@ -72,7 +72,9 @@ section .container .user .formbox
 }
 
 section .container .user .formbox form h2
-{
+{   
+    margin-top: 50px;
+
     font-size: 24px;
     font-weight: 600;
     text-transform: uppercase;
@@ -153,18 +155,31 @@ section .container .user .formbox form p a:hover
 
 section .container .user .formbox form  footer p
 {   
-    position: absolute;
-    margin-top: 120px;
+    margin-top: 50px;
+    
     font-size:14px ;
     font-weight:300;
+    letter-spacing: 1pxs;
 }
 
 section .container .user .formbox form .signup
 {   
     position: relative;
     margin-top: 20px;
+    
     font-size: 20px;
     font-weight: 300;
     letter-spacing: 1px;
-    color:#555
+    text-transform: uppercase;
+
+    color:#DA0037;
+}
+
+section .container .user .formbox form a 
+{
+    font-weight: 600;
+
+    text-decoration: none;
+
+    color: #DA0037;
 }
