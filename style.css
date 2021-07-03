@@ -183,3 +183,55 @@ section .container .user .formbox form a
 
     color: #DA0037;
 }
+
+section .container .signUp
+{
+    pointer-events: none;
+}
+
+section .container.hide .signUp
+{
+    pointer-events: initial;
+}
+
+
+/* Overlap Effect between containers */
+section .container .signUp .formbox
+{
+    left: 100%;
+}
+
+section .container.hide .signUp .formbox
+{
+    left:0;
+}
+
+section .container .signUp .imgbox
+{
+    left: 100%;
+}
+
+section .container.hide .signUp .imgbox
+{
+    left: 0;
+}
+
+section .container .signIn .formbox
+{
+    left: 0;
+}
+
+section .container.hide .signIn .formbox
+{
+    left: 100%;
+}
+
+section .container .signIn .imgbox
+{
+    left:0;
+}
+
+section .container.hide .signIn .imgbox
+{
+    left: -100%;
+}
