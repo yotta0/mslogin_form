@@ -109,6 +109,11 @@ section .container .user .formbox form input
     font-weight: 14px;
 }
 
+section .container .user .formbox form input::placeholder
+{
+    color: #DA0037;
+}
+
 section .container .user .formbox form .login 
 {
     position:relative;
